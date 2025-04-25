@@ -1,0 +1,45 @@
+#convenios {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .carousel-container {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    width: 200%; /* Ajusta según el número de imágenes */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-slide img {
+    width: 25%; /* Ajusta según el número de imágenes */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }

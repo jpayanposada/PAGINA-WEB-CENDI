@@ -23,6 +23,54 @@
     <!-- Indetifacion de pagina finaliza-->
 
 
+
+    <!-- Modal Egresados -->
+    <!-- <div class="text-center">
+  <div class="modal fade bd-example-modal-lg" id="egresadosModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 600px; margin: 0 auto">
+      <div class="modal-content p-0">
+        <div class="modal-header p-2">
+          <h5 class="modal-title" id="exampleModalLabel">
+            ¡FERIA VIRTUAL DE EMPLEABILIDAD! 
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-0">
+          <div id="carouselEgresados" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://site3.q10.com/Clase/55025111-be87-4302-883e-99d2d8053860/Enlace?aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank">
+                    <img src="img/egresados/img1.png" class="d-block w-100" alt="Imagen 1">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://site3.q10.com/Clase/55025111-be87-4302-883e-99d2d8053860/Enlace?aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank">
+                    <img src="img/egresados/img2.png" class="d-block w-100" alt="Imagen 2">
+                </a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselEgresados" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselEgresados" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer p-2">
+          <h5 style="color: white;text-align: center; margin: 0;">Accede a la feria, dando clic en la imagen</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
     <!-- Nosotros seccion -->
     <section class="about-section spad pt-0">
         <div class="container">
@@ -89,6 +137,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function() {
+        $("#egresadosModal").modal();
+    });
+</script>
 </body>
 
 </html>

@@ -3,6 +3,10 @@
 
 <?php include 'head.php'; ?>
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 <body>
 
     <!-- Pagina de logeo -->
@@ -28,8 +32,10 @@
 
             </ol>
             <div class="carousel-inner">
-
-                <div class="carousel-item active">
+                <div class="carousel-item active ">
+                    <img src="img/feria_flores.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
                     <img src="img/carrusel/1001.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ">
@@ -38,6 +44,7 @@
                 <div class="carousel-item ">
                     <img src="img/carrusel/3003.png" class="d-block w-100" alt="...">
                 </div>
+                
 
 
             </div>
@@ -103,7 +110,7 @@
                 <div class="col-sm-12 col-lg-12 fact">
 
                     <div class="fact-text" style="text-align: center;">
-                        <img src="img/icons/bachillerato.png" width="70%">
+                        <img src="img/icons/Bachillerato.png" width="70%">
                         <h1 style="color: white;">Bachillerato Privado</h1>
                         <p style="text-align: center;">y</p>
                         <h3 style="text-align: center;color: white;">Matrícula totalmente gratis</h3>>
@@ -174,7 +181,7 @@
     <section class="event-section spad">
         <div class="container">
             <div class="section-title text-center">
-                <h3>PRE-INSCRIPCIONES</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">PRE-INSCRIPCIONES</h3>
                 <p>CENDI te da una calurosa bienvenida, gracias por contar con nosotros</p>
             </div>
             <div class="row">
@@ -347,72 +354,41 @@
 
     <!-- inicia ventana emergente -->
 
-    <div class="text-center">
-        <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" style="text-align: center;">
-                <div class="modal-content">
+    
 
+    <div class="text-center">
+        <div class="modal fade bd-example-modal-lg" id="info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" style="text-align: center; max-width: 350px;">
+                <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-                            <i class="fa fa-exclamation"></i>
-                            ACCEDE A NUESTRAS PLATAFORMAS
-                            <i class="fa fa-exclamation"></i>
-                        </h5>
+                        <h5 class="modal-title" id="exampleModalLabel">¡MATRICÚLATE AHORA!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Cerrar"></button>
                         <span aria-hidden="true">&times;</span>
                         </button>
-
                     </div>
+                        
                     <div class="modal-body lg">
-                        <div class="container">
                             <div class="row">
-
-                                <div class="col-lg-12">
-
+                                <div class="col col-md-12 col-sm-12 col-lg-12 p-2">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active" style="text-align: center;">
+                                                <video autoplay loop muted playsinline controls style="width: 100%; max-width: 350px; margin: 0 auto; display: block;">
+                                                    <source src="img/videos/video_cendi.mp4" type="video/mp4">
+                                                    Tu navegador no soporta el elemento de video.
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
-                        <div class="container">
-                            <a href="https://www.campusdigital.cendiacademico.edu.co/login/index.php" target="_blank"><img src="img/icons/campus.gif" alt="Acceder" width="250px" title="Ingresar a Rutas Formativas en Tecnologías para la creatividad y el soporte tecnológico – Industrias Creativas 4ri"></a>
-                            <a href="https://site2.q10.com/login?ReturnUrl=%2F&aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank"><img src="img/icons/qbachiller.gif" alt="Botón Q10 para bachillerato" width="250px" title="Ingresar al Q10 para estudiantes de bachillerato"></a>
-                            <a href="https://site3.q10.com/login?ReturnUrl=%2F&aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank"><img src="img/icons/qtecnicos.gif" alt="Botón Q10 para bachillerato" width="250px" title="Ingresar al Q10 para estudiantes de programas técnicos"></a>
-                            <a href="https://campus.cendiacademico.edu.co/" target="_blank"><img src="img/icons/campus.gif" alt="Ingreso Kurve" width="250px" title="Ingresar al Moodle programa talento especializado"></a>
-
-                            <div class="modal-footer">
-                                <h5 style="color: white;text-align: center;">INFORMACIÓN IMPORTANTE</h5>
-                            </div>
-
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="text-center">
-        <div class="modal fade bd-example-modal-lg" id="info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" style="text-align: center;">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-                            <i class="fa fa-exclamation"></i>
-                            BOYACA Y CUNDINAMARCA TRABAJA CON NOSOTROS
-                            <i class="fa fa-exclamation"></i>
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Cerrar"></button>
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-
-                    </div>
-                    <div class="modal-body lg">
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col col-md-12 col-sm-12 col-lg-12 p-2">
-                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner">
+                                    <!-- <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="img/TRABAJOS_CENDI/1.png" class="d-block w-100" alt="...">
                                             </div>
@@ -472,21 +448,57 @@
                                             </div>
                                            
                                            
-                                        </div>
-                                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                                        </div> -->
+
+                                        <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </button>
                                         <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
-                                        </button>
-                                    </div>
+                                        </button> -->
+                                        <!-- <div class="modal-body">
+                                            <p>Contenido del modal</p>
+                                        </div> -->
+                               
+
+                            <!-- <div class="modal-footer">
+                                <h5 style="color: white;text-align: center;">Envia tu hoja de vida a: reclutamiento.UT@poliandino.edu.co</h5>
+                            </div> -->                        
+              
+
+    <div class="text-center">
+        <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="text-align: center;">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            <i class="fa fa-exclamation"></i>
+                            ACCEDE A NUESTRAS PLATAFORMAS
+                            <i class="fa fa-exclamation"></i>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Cerrar"></button>
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+                    <div class="modal-body lg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
                                 </div>
                             </div>
+                        </div>
+                        <div class="container">
+                            <a href="https://www.campusdigital.cendiacademico.edu.co/login/index.php" target="_blank"><img src="img/icons/campus.gif" alt="Acceder" width="250px" title="Ingresar a Rutas Formativas en Tecnologías para la creatividad y el soporte tecnológico – Industrias Creativas 4ri"></a>
+                            <a href="https://site2.q10.com/login?ReturnUrl=%2F&aplentId=c866b1f7-b5a4-4146-a6d5-eda3de6bdea9" target="_blank"><img src="img/icons/qbachiller.gif" alt="Botón Q10 para bachillerato" width="250px" title="Ingresar al Q10 para estudiantes de bachillerato"></a>
+                            <a href="https://site3.q10.com/login?ReturnUrl=%2F&aplentId=d0e037d5-22c3-4082-b55e-d30628819936" target="_blank"><img src="img/icons/qtecnicos.gif" alt="Botón Q10 para bachillerato" width="250px" title="Ingresar al Q10 para estudiantes de programas técnicos"></a>
+                            <a href="https://campus.cendiacademico.edu.co/" target="_blank"><img src="img/icons/campus.gif" alt="Ingreso Kurve" width="250px" title="Ingresar al Moodle programa talento especializado"></a>
 
                             <div class="modal-footer">
-                                <h5 style="color: white;text-align: center;">Envia tu hoja de vida a: reclutamiento.UT@poliandino.edu.co</h5>
+                                <h5 style="color: white;text-align: center;">INFORMACIÓN IMPORTANTE</h5>
                             </div>
 
                             </p>
@@ -496,7 +508,6 @@
             </div>
         </div>
     </div>
-
 
 
 
@@ -653,5 +664,12 @@
     </script>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: false
+  });
+</script>
+
 
 </html>

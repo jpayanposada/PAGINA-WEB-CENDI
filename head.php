@@ -37,6 +37,8 @@
 	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/style.css?v=5" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<!-- Importamos libreria de JQuery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	  

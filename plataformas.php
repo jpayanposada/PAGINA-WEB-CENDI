@@ -24,7 +24,7 @@
                 <div class="col-lg-6">
                     <div class="section-title text-white">
                         <br>
-                        <h3 style="text-align: center;">PLATAFORMA Q10 PARA BACHILLERATO</h3>
+                        <h3 style="text-align: center;" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">PLATAFORMA Q10 PARA BACHILLERATO</h3>
                         <p style="text-align: center;">Entérate de todo lo que te puede ofrecer</p>
                     </div>
                     <div class="enroll-list text-white">
@@ -51,7 +51,7 @@
                 <div class="col-lg-6">
                     <div class="section-title text-white">
                         <br>
-                        <h3 style="text-align: center;">PLATAFORMA Q10 PARA <br>TÉCNICOS</h3>
+                        <h3 style="text-align: center;" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">PLATAFORMA Q10 PARA <br>TÉCNICOS</h3>
                         <p style="text-align: center;">Entérate de todo lo que te puede ofrecer</p>
                     </div>
                     <div class="enroll-list text-white">

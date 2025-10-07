@@ -1,4 +1,4 @@
-<div class="wrapper"">
+<div class="wrapper">
   <div class=" bat-overlay">
 
 	<!-- Bats -->

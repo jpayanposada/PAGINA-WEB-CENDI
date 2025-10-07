@@ -4,6 +4,13 @@
 
 <body>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
+
     <!-- Seccion de encabezado inicia-->
     <?php include 'header.php';?>
     <!-- Seccion de encabezado finaliza-->
@@ -28,102 +35,102 @@
     <section class="about-section spad pt-0">
         <div class="container">
             <div class="section-title text-center">
-                <h3>CONOCE NUESTRO PERSONAL CENDI</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">CONOCE NUESTRO PERSONAL CENDI</h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
+                    <div class="card" style="width: 100%"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="false">
                         <img src="./img/member/1.png" class="card-img-top" alt="..."> 
                     </div> <br>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/2.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/2.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/3.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/3.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/4.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/4.png" class="card-img-top" alt="..." >
                     </div> 
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="false">
                         <img src="./img/member/5.png" class="card-img-top" alt="...">
                     </div> <br>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/6.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/6.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/7.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/7.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="300" data-aos-once="false">
                         <img src="./img/member/8.png" class="card-img-top" alt="...">
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/9.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/9.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/10.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/10.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/11.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/11.png" class="card-img-top" alt="..." >
                     </div>
                 </div>
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/12.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/12.png" class="card-img-top" alt="..." >
                     </div> <br>
                 </div>  
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/13.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/13.png" class="card-img-top" alt="..." >
                     </div>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/14.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/14.png" class="card-img-top" alt="..." >
                     </div>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/15.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/15.png" class="card-img-top" alt="..." >
                     </div>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/16.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/16.png" class="card-img-top" alt="..." >
                     </div> <br>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/17.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/17.png" class="card-img-top" alt="..." >
                     </div>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/18.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/18.png" class="card-img-top" alt="..." >
                     </div>
                 </div> 
                 <div class="col-lg-3 about-text">
-                    <div class="card" style="width: 100%">
-                        <img src="./img/member/19.png" class="card-img-top" alt="...">
+                    <div class="card" style="width: 100%" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+                        <img src="./img/member/19.png" class="card-img-top" alt="..." >
                     </div>
                 </div>             
              

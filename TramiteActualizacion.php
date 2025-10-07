@@ -4,6 +4,13 @@
 
 <body>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
+
     <!-- Seccion de encabezado inicia-->
     <?php include 'header.php'; ?>
     <!-- Seccion de encabezado finaliza-->
@@ -28,9 +35,9 @@
     <section class="about-section spad pt-0">
         <div class="container">
             <div class="section-title text-center">
-                <h3>BIENVENIDOS A
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">BIENVENIDOS A
                     TRÁMITE ACTUALIZACIÓN REGIMEN TRIBUTARIO ESPECIAL</h3>
-                <p>"EDUCANDO EN LA RESPONSABILIDAD, EDUCAMOS PARA LA LIBERTAD"</p>
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-once="false">"EDUCANDO EN LA RESPONSABILIDAD, EDUCAMOS PARA LA LIBERTAD"</p>
             </div>
             <div class="row">
                 <div class="col-lg-12 about-text">

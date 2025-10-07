@@ -19,7 +19,7 @@
                     <a class="dropdown-item" href="politicasDeCalidad.php">SGC</a>
                     <a class="dropdown-item" href="trabajeConNosotros.php">Trabaje con nosotros</a>
                     <a class="dropdown-item" href="/DOCS/MANUAL DE CONVIVENCIA ACTUALIZADO 2020.pdf" download="Manual de convicencia CENDI 2020 Bachiller">Manual de convivencia Bachillerato</a>
-                    <a class="dropdown-item" href="/DOCS/MA04 Manual de Convivencia - Versión 6.pdf" download="Manual de convicencia CENDI 2020 Tecnicos">Manual de convivencia Técnicos</a>
+                    <a class="dropdown-item" href="/DOCS/MA04_Manual_de_Convivencia_Versión_7_2025.pdf" download="Manual de convicencia CENDI 2025 Tecnicos">Manual de convivencia Técnicos</a>
                     <a class="dropdown-item" href="personal.php">Nuestro personal</a>
                     <a class="dropdown-item" href="docentes.php">Nuestros profesores</a>
                 </div>

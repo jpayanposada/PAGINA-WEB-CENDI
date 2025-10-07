@@ -19,8 +19,11 @@
 
     <!-- Menu encabezado inicia -->
     <?php include 'navbar.php'; ?>
+    <?php include 'halloween.php'; ?>
 
     <!-- Menu encabezado finaliza-->
+
+
 
     <!-- Inicio del carrusel de imagenes-->
     <section class="hero-section">
@@ -32,8 +35,8 @@
 
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active ">
-                    <img src="img/feria_flores.png" class="d-block w-100" alt="...">
+                <div class="carousel-item active">
+                    <img src="img/Halloween.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="img/carrusel/1001.png" class="d-block w-100" alt="...">
@@ -111,9 +114,9 @@
 
                     <div class="fact-text" style="text-align: center;">
                         <img src="img/icons/Bachillerato.png" width="70%">
-                        <h1 style="color: white;">Bachillerato Privado</h1>
+                        <h1 style="color: white;" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">Bachillerato Privado</h1>
                         <p style="text-align: center;">y</p>
-                        <h3 style="text-align: center;color: white;">Matrícula totalmente gratis</h3>>
+                        <h3 style="text-align: center;color: white;" data-aos="fade-up" data-aos-duration="1500" data-aos-once="false">Matrícula totalmente gratis</h3>>
                     </div>
                 </div>
             </div>
@@ -123,57 +126,57 @@
     <br>
 
     <!-- Seccion de contadores inicias -->
-    <section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-lg-2 fact">
-                    <div class="fact-icon">
-                        <i class="ti-crown"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h2>36</h2>
-                        <p>AÑOS</p>
-                    </div>
+    <section class="fact-section spad set-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" data-setbg="img/fact-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-lg-2 fact" data-aos="fade-left" data-aos-delay="0" data-aos-duration="600">
+                <div class="fact-icon">
+                    <i class="ti-crown"></i>
                 </div>
-                <div class="col-sm-4 col-lg-2 fact">
-                    <div class="fact-icon">
-                        <i class="ti-briefcase"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h2>25+</h2>
-                        <p>DOCENTES</p>
-                    </div>
+                <div class="fact-text">
+                    <h2>36</h2>
+                    <p>AÑOS</p>
                 </div>
-                <div class="col-sm-4 col-lg-3 fact">
-                    <div class="fact-icon">
-                        <i class="ti-user"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h2>12.000</h2>
-                        <p>ESTUDIANTES</p>
-                    </div>
+            </div>
+            <div class="col-sm-4 col-lg-2 fact" data-aos="fade-left" data-aos-delay="200" data-aos-duration="600">
+                <div class="fact-icon">
+                    <i class="ti-briefcase"></i>
                 </div>
-                <div class="col-sm-4 col-lg-3 fact">
-                    <div class="fact-icon">
-                        <i class="ti-user"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h2>4.500</h2>
-                        <p>TÉCNICOS</p>
-                    </div>
+                <div class="fact-text">
+                    <h2>25+</h2>
+                    <p>DOCENTES</p>
                 </div>
-                <div class="col-sm-4 col-lg-2 fact">
-                    <div class="fact-icon">
-                        <i class="ti-pencil-alt"></i>
-                    </div>
-                    <div class="fact-text">
-                        <h2>12+</h2>
-                        <p>PROGRAMAS</p>
-                    </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 fact" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600">
+                <div class="fact-icon">
+                    <i class="ti-user"></i>
+                </div>
+                <div class="fact-text">
+                    <h2>12.000</h2>
+                    <p>ESTUDIANTES</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 fact" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
+                <div class="fact-icon">
+                    <i class="ti-user"></i>
+                </div>
+                <div class="fact-text">
+                    <h2>4.500</h2>
+                    <p>TÉCNICOS</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-2 fact" data-aos="fade-left" data-aos-delay="800" data-aos-duration="600">
+                <div class="fact-icon">
+                    <i class="ti-pencil-alt"></i>
+                </div>
+                <div class="fact-text">
+                    <h2>12+</h2>
+                    <p>PROGRAMAS</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- Seccion de contadores finalizan-->
 
 

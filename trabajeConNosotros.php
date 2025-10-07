@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'head.php'; ?>
+
+
 <body>
+
+ 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
 
 		<!-- Seccion de encabezado inicia-->
 		<?php include 'header.php';?>
@@ -27,8 +36,8 @@
 	<section class="about-section spad pt-0">
 		<div class="container">
 			<div class="section-title text-center">
-				<h3>BIENVENIDOS A TRABAJE CON NOSOTROS</h3>
-				<p>"EDUCANDO EN LA RESPONSABILIDAD, EDUCAMOS PARA LA LIBERTAD"</p>
+				<h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">BIENVENIDOS A TRABAJE CON NOSOTROS</h3>
+				<p data-aos="fade-up" data-aos-duration="1500" data-aos-once="false">"EDUCANDO EN LA RESPONSABILIDAD, EDUCAMOS PARA LA LIBERTAD"</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-12 about-text">
@@ -43,43 +52,43 @@
 							<br>
 							
 								<div class="form-group"> 
-								  <label for="uname">Nombre completo:</label>
+								  <label for="uname" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Nombre completo:</label>
 								  <input type="text" class="form-control" id="name" placeholder="Ingresar nombre aquí" name="uname" onblur="aMayusculas(this.value,this.id)"required>
 								  <div class="valid-feedback">Valido.</div>
 								  <div class="invalid-feedback">Por favor rellenar el campo con su nombre.</div>
 								</div>
 								<div class="form-group">
-								  <label for="pwd">Correo eléctronico:</label>
+								  <label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Correo eléctronico:</label>
 								  <input type="email" class="form-control" id="email" placeholder="Ingresar correo aquí" name="mail" required>
 								  <div class="valid-feedback">Valido.</div>
 								  <div class="invalid-feedback">Por favor rellenar el campo con un correo valido.</div>
 								</div>
 								<div class="form-group">
-									<label for="pwd">Dirección de residencia:</label>
+									<label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Dirección de residencia:</label>
 									<input type="text" class="form-control" id="adress" placeholder="Ingresar dirección aquí" name="adres" onblur="aMayusculas(this.value,this.id)"required>
 									<div class="valid-feedback">Valido.</div>
 									<div class="invalid-feedback">Por favor rellenar el campo con una dirección valida.</div>
 								  </div>
 								  <div class="form-group">
-									<label for="pwd">Teléfono:</label>
+									<label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Teléfono:</label>
 									<input type="text" class="form-control" id="phone" placeholder="Ingresar teléfono aquí" name="phon" required maxlength="7" minlength="7">
 									<div class="valid-feedback">Valido.</div>
 									<div class="invalid-feedback">Por favor rellenar el campo con un número valido.</div>
 								  </div>
 								  <div class="form-group">
-									<label for="pwd">Celular:</label>
+									<label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Celular:</label>
 									<input type="text" class="form-control" id="cellphone" placeholder="Ingresar celular aquí" name="cell" required maxlength="10" minlength="10">
 									<div class="valid-feedback">Valido.</div>
 									<div class="invalid-feedback">Por favor rellenar el campo con un número de celular valido.</div>
 								  </div>
 								  <div class="form-group">
-								  <label for="pwd">Ciudad:</label>
+								  <label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Ciudad:</label>
 								  <input type="text" class="form-control" id="city" placeholder="Ingresar ciudad aquí" name="cit" onblur="aMayusculas(this.value,this.id)"required maxlength="25">
 								  <div class="valid-feedback">Valido.</div>
 								  <div class="invalid-feedback">Por favor rellenar el campo con una ciudad valida.</div>
 								</div>
 								<div class="form-group">
-									<label for="pwd">Cargo al que aspira:</label>
+									<label for="pwd" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">Cargo al que aspira:</label>
 									<input type="text" class="form-control" id="employ" placeholder="Ingresar cargo aquí" name="empl" onblur="aMayusculas(this.value,this.id)"required maxlength="35">
 									<div class="valid-feedback">Valido.</div>
 									<div class="invalid-feedback">Por favor rellenar el campo con un cargo valido.</div>

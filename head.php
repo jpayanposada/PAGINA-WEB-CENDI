@@ -1,5 +1,6 @@
 <head>
-	<title>.:CORPORACIÓN CENDI:.</title>
+	<link rel="icon" type="image/png" href="/img/icons/logoNewBlanco.png">
+	<title>CORPORACIÓN CENDI</title>
 	<meta charset="UTF-8">
 	<meta name="author" content="Jhon Darwin Aceevedo | Agencia de Desarrollo Eagle Software">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
